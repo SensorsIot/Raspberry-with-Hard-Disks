@@ -69,7 +69,7 @@ fi
 
 # Run benchmarks.
 printf "Running hdparm test...\n"
-hdparm -t /dev/sda2
+sudo hdparm -t /dev/sda2
 printf "\n"
 
 printf "Running dd test...\n\n"
